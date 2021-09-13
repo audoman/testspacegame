@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
+<link href="~/css/bootstrap.min.css" rel="stylesheet" > 
+<script src="~/js/bootstrap.bundle.min.js" ></script> 
+
 <body>
 
-<h1>Developer News</h1>
+<div class="jumbotron">Developer News</div>
 
 <label for="exampleColorInput" class="form-label">Color picker</label>
 <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
@@ -37,5 +40,10 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+
+<a name="" id="" class="btn btn-primary" href="#" role="button">Push the button</a>
+
+
+
 </body>
 </html> 
