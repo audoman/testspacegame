@@ -22,6 +22,20 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 echo "<h1>Connected successfully</h1>";
+
+$sql = "SELECT Startsaying from spacegame.start
+where idStart =1";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+    echo "Startsaying: " . $row["Startsaying"]. "<br>";
+  }
+} else {
+  echo "0 results";
+}
+$conn->close();
 ?>
 </body>
 </html> 
