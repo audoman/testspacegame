@@ -9,11 +9,12 @@ if(isset($_POST['submit']))
      VALUES ('$name','$email','$charactername')";
      if (mysqli_query($conn, $sql)) {
         echo "New record has been added successfully !";
+        header('Location: start.php');
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
      }
      mysqli_close($conn);
-     header("Location: start.php",TRUE,301);
+     
 }
 
 ?>
