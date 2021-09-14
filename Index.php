@@ -4,13 +4,14 @@
 <script src="/js/bootstrap.bundle.min.js" ></script> 
 <body>
 
-<div class="jumbotron">Space Game</div>
-
-<label for="exampleColorInput" class="form-label">Color picker</label>
-<input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
-
-
-<div class="wrapper">
+<h1 class="display-1"> Computer waiting for input</h1>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+    <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -37,6 +38,15 @@
             </div>        
         </div>
     </div>
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
+
+
+
 
 </body>
 </html> 
