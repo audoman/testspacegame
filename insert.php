@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
      $sql = "INSERT INTO users (name,email,charactername)
      VALUES ('$name','$email','$charactername')";
      if (mysqli_query($conn, $sql)) {
-        echo "New record has been added successfully !";
+        
         header('Location: start.php');
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
