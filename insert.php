@@ -19,7 +19,7 @@ if(isset($_POST['submit']))
      $sql = "INSERT INTO users (name,email,charactername)
      VALUES ('$name','$email','$charactername')";
      if (mysqli_query($conn, $sql)) {
-        echo '<div class="successfully-saved">New record has been added successfully !</div>';
+        echo "<div class=\"successfully-saved\">New record has been added successfully !</div>";
         
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
