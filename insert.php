@@ -9,7 +9,7 @@ if(isset($_POST['submit']))
      VALUES ('$name','$email','$charactername')";
      if (mysqli_query($conn, $sql)) {
         
-        header('Location: start.php');
+        header('Location: https://testspacegame.azurewebsites.net/start.php');
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
      }
