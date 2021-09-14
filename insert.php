@@ -14,4 +14,9 @@ if(isset($_POST['submit']))
      }
      mysqli_close($conn);
 }
+//Wait for 2 seconds
+sleep(2);
+//Redirect to the particular location
+header("Location: start.php",TRUE,301);
+die();
 ?>
