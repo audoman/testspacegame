@@ -13,8 +13,7 @@ if(isset($_POST['submit']))
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
      }
      mysqli_close($conn);
-     echo '<meta http-equiv="refresh" content="0;url=http://www.google.com/" />'
-
+     header("Location: start.php",TRUE,301);
 }
 
 ?>
