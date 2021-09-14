@@ -9,7 +9,7 @@ $conn = new mysqli($host, $userName, $password, $dbName);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
   }
-  //echo "<h1>Connected successfully</h1>";
+
 
 ?>
 
