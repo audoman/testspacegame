@@ -8,7 +8,7 @@
 </head>
  
 <body>
-<div class="p-3 mb-2 bg-dark text-white">
+
 
 <?php
 include_once 'config.php';
@@ -20,7 +20,7 @@ if(isset($_POST['submit']))
      $sql = "INSERT INTO users (name,email,charactername)
      VALUES ('$name','$email','$charactername')";
      if (mysqli_query($conn, $sql)) {
-        echo "<div>Loading the binarys</div>";
+        echo "<div class = \"successfully-saved\">Loading the binarys</div>";
         
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
@@ -30,6 +30,6 @@ if(isset($_POST['submit']))
 }
 
 ?>
-</div>
+
 </body>
 </html>
