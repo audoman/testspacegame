@@ -6,11 +6,11 @@
 
 <body class="blackgb">
 
-<h1 class="display-1 "> Computer waiting for input</h1>
+<h1 class="display-1 blackgb "> Computer waiting for input</h1>
 <div class="container">
   <div class="row">
     <div class="col">
-      Column
+      
     </div>
     <div class="col">
     <div class="wrapper">
@@ -34,6 +34,7 @@
                             <label>charactername</label>
                             <input type="text" name="charactername" class="form-control">
                         </div>
+                        <br>
                         <input type="submit" class="btn btn-primary" name="submit" value="Submit">
                     </form>
                 </div>
@@ -42,7 +43,7 @@
     </div>
     </div>
     <div class="col">
-      Column
+      
     </div>
   </div>
 </div>
