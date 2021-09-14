@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <link href="/css/bootstrap.min.css" rel="stylesheet" > 
+<link href="/css/custom.css" rel="stylesheet" > 
 <script src="/js/bootstrap.bundle.min.js" ></script> 
-<body>
 
-<h1 class="display-1"> Computer waiting for input</h1>
+<body class="blackgb">
+
+<h1 class="display-1 "> Computer waiting for input</h1>
 <div class="container">
   <div class="row">
     <div class="col">
