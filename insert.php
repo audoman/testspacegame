@@ -20,7 +20,7 @@ if(isset($_POST['submit']))
      $sql = "INSERT INTO users (name,email,charactername)
      VALUES ('$name','$email','$charactername')";
      if (mysqli_query($conn, $sql)) {
-        echo "<div class = \"successfully-saved\">Loading the binarys</div>";
+        echo "<div class = \"blackgb\">Loading the binarys</div>";
         
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($conn);
