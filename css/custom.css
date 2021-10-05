@@ -14,7 +14,30 @@
     color: #ffffff;
 }
 
-.blink {
-    animation: blink 1s infinite;
-  }
+.cursor {
+	position: relative;
+}
+.cursor	i {
+	position: absolute;
+	width: 10px;
+	height: 80%;
+	background-color: green;
+	left: 5px;
+	top: 10%;
+	animation-name: blink;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	opacity: 1;
+}
+
+.cursor input:focus + i {
+	display: none;
+}
+
+@keyframes blink {
+	from { opacity: 1; }
+
+	to { opacity: 0.3; }
+
+}
   

@@ -24,9 +24,10 @@
                     </div>
                     <p>Please fill this form and submit to add employee record to the database.</p>
                     <form action="insert.php" method="post">
-                        <div class="form-group">
+                        <div class="form-group cursor">
                             <label>Name</label>
                             <input type="text" name="name" class="form-control">
+                            <i></i>
                         </div>
                         <div class="form-group">
                             <label>Email</label>
