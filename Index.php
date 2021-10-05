@@ -6,7 +6,9 @@
 
 <body class="blackgb">
 
-<h1 class="display-1 blackgb "> Computer waiting for input</h1>
+<h1 class="display-1 blackgb "> Computer waiting for input</h1><p>
+  <span class="blink">....</span>
+</p>
 <div class="container">
   <div class="row">
     <div class="col">

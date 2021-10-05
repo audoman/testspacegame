@@ -13,3 +13,8 @@
     background-color: black;
     color: #ffffff;
 }
+
+.blink {
+    animation: blink 1s infinite;
+  }
+  
