@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h2>Contact Form</h2>
+                        <h2>Enrolment Form</h2>
                     </div>
                     <p>Please fill this form and submit to add employee record to the database.</p>
                     <form action="insert.php" method="post">
