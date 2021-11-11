@@ -40,4 +40,23 @@
 	to { opacity: 0.3; }
 
 }
-  
+ 
+/* Language: css black form control background */
+/* Path: css\custom.css */	
+.black-form-control {
+	background-color: #000000;
+	color: #287e00;
+}
+
+/*horizontal shift animation of text*/		
+.animated-text {
+	position: relative;
+	animation-name: text-animation;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+
+
